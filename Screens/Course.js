@@ -73,7 +73,7 @@ const CourseInfo = props => {
 const Course = ({navigation}) => {
   const [data,setData]=useState([])
   const [country, setCountry] = useState();
-  const [filters,setFilters]=useState('')
+  
     useLayoutEffect(()=>{
         navigation.setOptions({
         
