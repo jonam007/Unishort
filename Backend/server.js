@@ -8,15 +8,15 @@ const scholarRouter = require('./routes/Scholar');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 5000;
-const hostname = '192.168.150.115';
+const port = //Port name,
+const hostname = //Hostname,
 
 app.use(cors());
 
 app.use(express.json());
 
 const uri =
-  'mongodb+srv://Manoj:Manoj123@cluster0.5u3tz.mongodb.net/Universities?retryWrites=true&w=majority';
+  //MONGODB URI
 mongoose.connect(uri, {useNewUrlParser: true}).then(console.log('connected'));
 
 app.listen(port, hostname, () => {
