@@ -39,7 +39,7 @@ const AddBlog = ({navigation}) => {
         
             <KeyboardAvoidingView  style={styles.container}>
              
-            <StatusBar style="dark"/>
+            
             <View style={styles.margin} >
             <Text h3 style={{marginBottom:20,marginLeft:50}}>Add Blog </Text>
            
